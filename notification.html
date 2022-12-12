@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <title>Notifications</title>
+  </head>
+  <body>
+    <div class="container">
+        <nav class="sidebar close">
+          <header>
+              <div class="image-text">
+                  <span class="image">
+                      <img src="logo.png" alt="">
+                  </span>
+      
+                  <div class="text logo-text">
+                      <span class="name"></span>
+                      <span class="profession"></span>
+                  </div>
+              </div>
+      
+              <i class='bx bx-chevron-right toggle bx-lg'></i>
+          </header>
+      
+          <div class="menu-bar">
+              <div class="menu">
+      
+                  <li class="search-box">
+                      <i class='bx bx-search icon bx-md bx-burst-hover'></i>
+                      <input type="text" placeholder="Search...">
+                  </li>
+      
+                  <ul class="menu-links">
+                    
+                      <li class="nav-link">
+                        <a href="profile.html">
+                              <i class='bx bx-user icon bx-md bx-burst-hover' ></i>
+                         
+                              
+                              <span class="text nav-text">Profile</span>
+                        </a> 
+                      </li>
+                    
+      
+                      <li class="nav-link">
+                          <a href="home.html">
+                              <i class='bx bx-home-alt icon bx-md bx-burst-hover' ></i>
+                              <span class="text nav-text">Home</span>
+                          </a>
+                      </li>
+      
+                      <li class="nav-link">
+                          <a href="#">
+                              <i class='bx bx-bell icon bx-md bx-burst-hover'></i>
+                              <span class="text nav-text">Notifications</span>
+                          </a>
+                      </li>
+      
+                      
+      
+                       
+      
+                      <li class="nav-link">
+                          <a href="team.html">
+                              <i class='bx bxs-group icon bx-md bx-burst-hover' ></i>
+                              <span class="text nav-text">Team Developer</span>
+                          </a>
+                      </li>
+      
+                  </ul>
+              </div>
+      
+              <div class="bottom-content">
+                  <!--<li class="">
+                      <a href="#">
+                          <i class='bx bx-log-out icon' ></i>
+                          <span class="text nav-text">Logout</span>
+                      </a>
+                  </li>-->
+      
+                  <li class="mode">
+                      <div class="sun-moon">
+                          <i class='bx bx-moon icon moon'></i>
+                          <i class='bx bx-sun icon sun'></i>
+                      </div>
+                      <span class="mode-text text">Dark mode</span>
+      
+                      <div class="toggle-switch">
+                          <span class="switch"></span>
+                      </div>
+                  </li>
+                  
+              </div>
+          </div>
+      
+      </nav>
+      
+     <!-- <section class="home">
+          <div class="text">UNIVERSITY ENTRY CARD</div>
+      </section>-->
+    <div class="container_notification">
+      <header>
+        <div class="notif_box">
+          <h2 class="title">Notifications</h2>
+          <span id="notifes"></span>
+        </div>
+        <p id="mark_all">Mark all as read</p>
+      </header>
+      <main>
+        <div class="notif_card unread">
+          <img src="tup_logo.png" alt="avatar" class="avatar_pic"/>
+          <div class="description">
+            <p class="user_activity">
+              <strong>TUP</strong> Uploaded new link for admission
+              <b>Be a TUPian's!</b>
+            </p>
+            <p class="time">30 minutes ago</p>
+          </div>
+        </div>
+        <div class="notif_card unread">
+          <img src="download.png" alt="avatar" class="avatar_pic" />
+          <div class="description">
+            <p class="user_activity">
+              <strong>UDM</strong> posted an announcement
+            </p>
+            <p class="time">5m ago</p>
+          </div>
+        </div>
+        <div class="notif_card unread">
+          <img src="plm_logo.jpg" alt="avatar" class="avatar_pic"/>
+          <div class="description">
+            <p class="user_activity">
+              <strong>PLM</strong> posted an announcement
+              <strong class="link">PLM ANNOUNCEMENT</strong>
+            </p>
+            <p class="time">1 day ago</p>
+          </div>
+        </div>
+        <div>
+          <div class="notif_card">
+          <div class="message_card">
+            <img
+            src="PUPLogo.png"
+            alt="avatar" class="avatar_pic"
+          />
+          <div class="description">
+            <p class="user_activity">
+              <strong>PUP</strong> posted an announcement
+            </p>
+            <p class="time">1 day ago</p>
+          </div>
+          </div>
+        </div>
+         
+        
+        
+           
+        </div>
+         
+          </div>
+        </div>
+         
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="script_nav.js"></script>
+  </body>
+</html>

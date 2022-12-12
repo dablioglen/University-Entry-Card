@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>َUNIVERSITY ENTRY CARD </title>
+    <link rel="stylesheet" href="indexx.css">
+  </head>
+  <body>
+   
+    <h2 align="center" style="font-family: Consolas; font-size: 30px; color: rgb(221, 214, 214);">WELCOME TO UNIVERSITY ENTRY CARD</h2>
+    <p align="center" style="color: rgb(221, 214, 214)" >Help Every Student To Find A Way</p>
+   
+
+<form class="box" style="background-image: url('toga.jpg'); background-size: cover;">
+  <h1>Login</h1>
+  <input type="text" name="loginUser" placeholder="Username" id="username" required>
+  <input type="password" name="loginPassword" placeholder="Password" id="password" required>
+  <input type="submit" name="" value="Login" onclick="auth()">
+</form>
+
+
+  </body>
+  <script>
+    function auth(){
+      var username = document.getElementById("username").value;
+      var password = document.getElementById("password").value;
+      if(username == "admin" && password == "admin"){
+        window.location.assign("home.html");
+        alert("Login Successfully ");
+      }
+      else{
+        alert("Invalid Information ");
+        return;
+      }
+    }
+  </script>
+</html>

@@ -1,1 +1,1 @@
-# University-Entry-Card
+# UniversityEntryCard
